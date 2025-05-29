@@ -1,0 +1,27 @@
+name: "website"
+title: "Nghi Lam"
+description: "Welcome to Ngh (Ni)'s space."
+output_dir: "_site"
+
+# Link to the custom theme.css file for styling
+theme: "css/theme.css"  
+
+navbar:
+  # Configuring navbar with items for the left and right sides
+  logo:
+    image: "pics/nghi.png"  
+    href: "index.html"
+  left:
+    - text: "About"
+      href: "index.html"
+      icon: "fa fa-user"
+
+    - icon: "fa fa-linkedin"
+      href: "https://www.linkedin.com/in/nghilam223/"
+    - icon: "fa fa-instagram"
+      href: "https://www.instagram.com/approvedbyheo/"
+
+favicon: "icon/favicon.ico"  # Ensure favicon is in the correct directory (e.g., 'icon/favicon.ico')
+
+# Use a simple output format for static HTML
+output: "html_document"
