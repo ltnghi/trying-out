@@ -12,10 +12,6 @@ navbar:
     image: "pics/nghi.png"  
     href: "index.html"
   left:
-    - text: "About"
-      href: "index.html"
-      icon: "fa fa-user"
-
     - icon: "fa fa-linkedin"
       href: "https://www.linkedin.com/in/nghilam223/"
     - icon: "fa fa-instagram"
