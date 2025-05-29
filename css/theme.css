@@ -174,7 +174,8 @@ code {
 }
 
 .profile-text {
-  flex: 1; /* Text takes remaining space */
+  width: 100%;
+  height: auto;
 }
 
 /* Indent the nested <ul> */
